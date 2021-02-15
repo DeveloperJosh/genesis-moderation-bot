@@ -36,7 +36,7 @@ exports.Client = client;
 const commands = new commandhandler_1.default();
 exports.Commands = commands;
 commands.build();
-new database_1.Database("sql5.freesqldatabase.com", "sql5393014", "wGRWblHEh4", "sql5393014");
+new database_1.Database("host", "user", "password", "database");
 client.on('ready', () => {
     var _a, _b;
     console.log(`Logged in as ${(_a = client.user) === null || _a === void 0 ? void 0 : _a.tag}`);
