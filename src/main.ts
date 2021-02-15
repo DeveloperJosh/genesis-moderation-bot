@@ -17,10 +17,10 @@ export { commands as Commands }
 commands.build()
 
 new Database(
-  "sql5.freesqldatabase.com",
-  "sql5393014",
-  "wGRWblHEh4",
-  "sql5393014"
+  "host",
+  "user",
+  "password",
+  "database"
 )
 
 client.on('ready', () => {
